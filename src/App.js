@@ -1,9 +1,8 @@
 import icon from './valentines-day.gif';
 import './App.css';
-
-import {Alert, Button} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { useState } from 'react';
+import {Link} from "react-router-dom";
 
 
 
@@ -42,10 +41,9 @@ function App() {
         <img src={icon} className="App-logo" alt="logo" />
       </header>
       <header className='question'> Will you be my Valentine?</header>
-
       <button className={yesButtonClass} onClick={handleYesClick}>Yes</button>
       {"      "}
-        {noButtonVisible && (<button className={noButtonClass} onClick={handleNoClick}>No</button>)}
+      {noButtonVisible && (<button className={noButtonClass} onClick={handleNoClick}>No</button>)}
     </div>
   );
 }

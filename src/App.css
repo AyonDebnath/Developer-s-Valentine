@@ -23,7 +23,7 @@
 }
 
 .yesButton{
-  background-color: peachpuff; /* Green */
+  background-color: #ffb1c0; /* Green */
   border: red;
   color: black;
   padding: 15px 15px;
@@ -38,7 +38,7 @@
 }
 
 .yesButton1{
-  background-color: peachpuff; /* Green */
+  background-color: #ffb1c0; /* Green */
   border: red;
   color: black;
   padding: 15px 30px;
@@ -53,7 +53,7 @@
 }
 
 .yesButton2{
-  background-color: peachpuff; /* Green */
+  background-color: #ffb1c0; /* Green */
   border: red;
   color: black;
   padding: 15px 50px;
@@ -68,7 +68,7 @@
 }
 
 .yesButton3{
-  background-color: peachpuff; /* Green */
+  background-color: #ffb1c0; /* Green */
   border: red;
   color: black;
   padding: 15px 70px;
@@ -83,7 +83,7 @@
 }
 
 .noButton{
-  background-color: peachpuff; /* Green */
+  background-color: #ffb1c0; /* Green */
   border: red;
   color: black;
   padding: 15px 15px;
@@ -91,13 +91,14 @@
   font-family: Roboto;
   display: inline-block;
   font-size: 17px;
+  font-weight: bold;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
 }
 
 .noButton1{
-  background-color: peachpuff; /* Green */
+  background-color: #ffb1c0; /* Green */
   border: red;
   color: black;
   padding: 15px 15px;
@@ -105,13 +106,14 @@
   font-family: Roboto;
   display: inline-block;
   font-size: 14px;
+  font-weight: bold;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
 }
 
 .noButton2{
-  background-color: peachpuff; /* Green */
+  background-color: #ffb1c0;
   border: red;
   color: black;
   padding: 15px 15px;
@@ -119,7 +121,12 @@
   font-family: Roboto;
   display: inline-block;
   font-size: 11px;
+  font-weight: bold;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
+}
+
+.noButton:hover, .noButton1:hover, .noButton2:hover, .yesButton:hover, .yesButton1:hover, .yesButton2:hover, .yesButton3:hover{
+  background-color: #fa7483;
 }
