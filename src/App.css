@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.question {
+  color: black;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.yesButton{
+  background-color: peachpuff; /* Green */
+  border: red;
+  color: black;
+  padding: 15px 15px;
+  text-align: center;
+  font-family: Roboto;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.yesButton1{
+  background-color: peachpuff; /* Green */
+  border: red;
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  font-family: Roboto;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.yesButton2{
+  background-color: peachpuff; /* Green */
+  border: red;
+  color: black;
+  padding: 15px 50px;
+  text-align: center;
+  font-family: Roboto;
+  display: inline-block;
+  font-size: 23px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.yesButton3{
+  background-color: peachpuff; /* Green */
+  border: red;
+  color: black;
+  padding: 15px 70px;
+  text-align: center;
+  font-family: Roboto;
+  display: inline-block;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.noButton{
+  background-color: peachpuff; /* Green */
+  border: red;
+  color: black;
+  padding: 15px 15px;
+  text-align: center;
+  font-family: Roboto;
+  display: inline-block;
+  font-size: 17px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.noButton1{
+  background-color: peachpuff; /* Green */
+  border: red;
+  color: black;
+  padding: 15px 15px;
+  text-align: center;
+  font-family: Roboto;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.noButton2{
+  background-color: peachpuff; /* Green */
+  border: red;
+  color: black;
+  padding: 15px 15px;
+  text-align: center;
+  font-family: Roboto;
+  display: inline-block;
+  font-size: 11px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
