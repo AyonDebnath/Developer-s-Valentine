@@ -20,7 +20,7 @@ Make sure you have the following installed on your machine:
 ## Navigate to repository
 
    ```bash
-   cd weather_app
+   cd Developer-s-Valentine
    ```
 
 ## Run the App
