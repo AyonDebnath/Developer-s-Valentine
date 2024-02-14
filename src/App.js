@@ -9,6 +9,11 @@ import {Link} from "react-router-dom";
 function App() {
 
     const [noClickCount, setNoClickCount] = useState(0);
+    const [yesButtonVisible, setYesButtonVisible] = useState(true);
+    // const [noButtonVisible, setNoButtonVisible] = useState(true);
+    let noButtonVisible = true;
+    let yesButtonClass = 'yesButton';
+    let noButtonClass = 'noButton';
 
     const handleNoClick = () => {
         setNoClickCount(noClickCount + 1);
@@ -16,12 +21,11 @@ function App() {
     };
 
     const handleYesClick = () => {
+        setYesButtonVisible(false);
+        console.log("yesButtonVisible:", yesButtonVisible)
         console.log('Yes Button clicked!');
     };
 
-    let yesButtonClass = 'yesButton';
-    let noButtonClass = 'noButton';
-    let noButtonVisible = true
     if (noClickCount == 1) {
         yesButtonClass = 'yesButton1';
         noButtonClass = 'noButton1';
@@ -31,8 +35,8 @@ function App() {
         noButtonClass = 'noButton2';
     }
     else if (noClickCount == 3) {
-        yesButtonClass = 'yesButton3';
         noButtonVisible = false;
+        yesButtonClass = 'yesButton3';
     }
 
   return (
@@ -41,9 +45,9 @@ function App() {
         <img src={icon} className="App-logo" alt="logo" />
       </header>
       <header className='question'> Will you be my Valentine?</header>
-      <button className={yesButtonClass} onClick={handleYesClick}>Yes</button>
+        {yesButtonVisible ? (<button className={yesButtonClass} onClick={handleYesClick}>Yes</button>) : (<p className="yesRespnse" >Aww that's so sweet </p>)}
       {"      "}
-      {noButtonVisible && (<button className={noButtonClass} onClick={handleNoClick}>No</button>)}
+      {noButtonVisible && yesButtonVisible && (<button className={noButtonClass} onClick={handleNoClick}>No</button>)}
     </div>
   );
 }

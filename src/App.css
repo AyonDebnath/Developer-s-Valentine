@@ -130,3 +130,8 @@
 .noButton:hover, .noButton1:hover, .noButton2:hover, .yesButton:hover, .yesButton1:hover, .yesButton2:hover, .yesButton3:hover{
   background-color: #fa7483;
 }
+
+
+.yesRespnse{
+  font-size: 20px;
+}
