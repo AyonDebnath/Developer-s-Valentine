@@ -3,7 +3,7 @@
 This is a simple app built for all the single developers out there. 
 
 ## Demo:
-![animation.gif](animation.gif)
+<img src="animation.gif" width="500" >
 
 ## Prerequisites
 
